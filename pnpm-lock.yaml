@@ -6,7 +6,11 @@ specifiers:
   '@tailwindcss/typography': ^0.5.8
   '@vueuse/core': ^9.6.0
   '@vueuse/nuxt': ^9.6.0
+  nuxi: ^3.0.0
   nuxt: 3.0.0
+
+dependencies:
+  nuxi: 3.0.0
 
 devDependencies:
   '@nuxtjs/supabase': 0.2.6
@@ -2629,7 +2633,6 @@ packages:
     engines: {node: ^8.16.0 || ^10.6.0 || >=11.0.0}
     os: [darwin]
     requiresBuild: true
-    dev: true
     optional: true
 
   /function-bind/1.1.1:
@@ -3756,7 +3759,6 @@ packages:
     hasBin: true
     optionalDependencies:
       fsevents: 2.3.2
-    dev: true
 
   /nuxt/3.0.0:
     resolution: {integrity: sha512-RNlD78uv04ZiXWmlx9f1tnJfrqsYAWHU+4gbgOTQpIBmQzHWPWiox+fm/1m93iKfEd5sJi9TJUoXX5yBObVZYw==}
